@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding-top: 30px;
+  align-items: center;
+}
+
+table {
+  border: 2px solid forestgreen;
+  width: 100%;
+  height: 100%;
+}
+
+th {
+  border-bottom: 1px solid green;
+}
+.deleteButton {
+  width: 200px;
+}
+td {
+  text-align: center;
+  border-bottom: 2px solid green;
+  border-left: 2px solid green;
+  border-right: 2px solid green;
+}
+.operations {
+  padding-top: 30px;
+  width: 100%;
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
+  border-left: 2px solid green;
+  border-right: 2px solid green;
+  height: 100%;
+  display: grid;
+}
+.NavBar > a {
+  margin-right: 10px;
+  color: #f1c40f;
+  display: inline-block;
+  padding: 8px;
+  background-color: #dddddd;
+  text-decoration: none;
+  color: blue;
+}
+.a:hover {
+  background-color: #111;
+}
+
+.NavBar > .logo {
+  float: right;
+  color: #61dbfb; /* Must be slightly transparent for effect to work */
+  font: bold 14px/14px "Sigmar One", sans-serif;
+  margin-left: 5px;
+  text-align: center;
+  text-shadow: 0 3px 7px #000, 0 0 0 #000;
+}
+.totalAmount {
+  width: 50px;
+  height: 50px;
+  border: #000;
+}
